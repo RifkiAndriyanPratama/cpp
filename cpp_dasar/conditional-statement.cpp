@@ -7,10 +7,9 @@ int main(){
     cout << "Masukkan angka: ";
     cin >> angka;
 
-    // buat kondisi dimana ketika hasil dari modulus 2 adalah sisa 0 maka dia akan genap
-    if(angka % 2 == 0){
-        cout << angka << " Itu genap";
+    if(angka != 10){
+        cout << "angkamu tidak sepuluh jir";
     } else {
-        cout << angka << " Itu ganjil";
+        cout << "angkamu aman";
     }
 }
